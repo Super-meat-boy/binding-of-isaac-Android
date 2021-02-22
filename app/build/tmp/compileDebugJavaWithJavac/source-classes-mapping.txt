@@ -1,0 +1,2 @@
+android/kotlin/bindingofisaacwiki/BuildConfig.java
+ android.kotlin.bindingofisaacwiki.BuildConfig

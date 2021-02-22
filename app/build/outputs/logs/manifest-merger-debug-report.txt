@@ -1,0 +1,187 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/8975014bd5e40ae1dc22f679dbc01baa/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/416c95735805f02252ca2b30b66ddd13/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/F364032/.gradle/caches/transforms-2/files-2.1/81c00e07af216f1e9b0d9adc6eb629db/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/de954d56b038c5e0c396371d70207198/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/dc6d7b85a7fb66687935966a8060e486/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/4c18485fa7ab2d09eeb762d91e061257/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/b6e18ac27bd8226bbd0765d87c8dcf77/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/13e6a4c26184b9fcf370ff775756e982/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ac8404b009bb0dfa7a283f6e94fa54fd/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93dc1f834b301b459d1b11e5b84fbf16/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/b4012d2a51fcc8bede2d6230be0d0ac5/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/db1d7ef8acdced45afe41f070c80cc7f/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ad6259ce3569d086a3b57497cede3661/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/11b1db5a139b6c4e373cfae5b8bdc711/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6d8f8144433efcd212c603c9dd10b90c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/c6d76c9ee6ff14f394646feff196d96c/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/2119656ee468637dec8b47bb31b16e9b/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/1d1e3885c9fd1ca980748f379bf4f5c9/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/443bd87ee684a2cc03b9c13ef00a7d51/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93ec22c54347c54b2841e93edbe987a4/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/4442277a38e7191a450b6b7a2e38f6ae/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/255c7097195b959ebbb2103a63e2f7b2/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ed52e631d0f6c392b557ca89aad3812f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/99f590f7bbfc8581338d6f70d8d1a41c/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/0a3d4bb0473a0a7098a31215bffc5a7d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/d25ffaeb3f729daba67c2fe745b9e4de/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/c7d6fc8eed05238ad5263002ff2de997/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6fb947e1075f5d86bbf8daa0d42b23b1/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/9fc1e30bda4da99baffe38c538bd78e9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6ad62eb2e25a1906be4cd4148fa08c03/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/da9de17933d68bce7ae0b262a56405fe/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/162e3e261dda82932337bcf45b7b8236/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6cbce081d381ee367acb6cc2087a7921/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/0e15ed7ad24393a6efb5fe1bd78a2510/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/416c95735805f02252ca2b30b66ddd13/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/416c95735805f02252ca2b30b66ddd13/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/F364032/.gradle/caches/transforms-2/files-2.1/81c00e07af216f1e9b0d9adc6eb629db/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/F364032/.gradle/caches/transforms-2/files-2.1/81c00e07af216f1e9b0d9adc6eb629db/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93ec22c54347c54b2841e93edbe987a4/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93ec22c54347c54b2841e93edbe987a4/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ed52e631d0f6c392b557ca89aad3812f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ed52e631d0f6c392b557ca89aad3812f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93ec22c54347c54b2841e93edbe987a4/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:11:9-56
+activity#android.kotlin.bindingofisaacwiki.CharacterDetailActivity
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:12:9-70
+	android:name
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:12:19-58
+activity#android.kotlin.bindingofisaacwiki.CharactersListActivity
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:13:9-14:57
+	android:parentActivityName
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:14:13-55
+	android:name
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:13:19-57
+activity#android.kotlin.bindingofisaacwiki.MainActivity
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/8975014bd5e40ae1dc22f679dbc01baa/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/8975014bd5e40ae1dc22f679dbc01baa/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/416c95735805f02252ca2b30b66ddd13/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/416c95735805f02252ca2b30b66ddd13/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/F364032/.gradle/caches/transforms-2/files-2.1/81c00e07af216f1e9b0d9adc6eb629db/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/F364032/.gradle/caches/transforms-2/files-2.1/81c00e07af216f1e9b0d9adc6eb629db/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/de954d56b038c5e0c396371d70207198/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/de954d56b038c5e0c396371d70207198/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/dc6d7b85a7fb66687935966a8060e486/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/dc6d7b85a7fb66687935966a8060e486/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/4c18485fa7ab2d09eeb762d91e061257/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/4c18485fa7ab2d09eeb762d91e061257/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/b6e18ac27bd8226bbd0765d87c8dcf77/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/b6e18ac27bd8226bbd0765d87c8dcf77/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/13e6a4c26184b9fcf370ff775756e982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/13e6a4c26184b9fcf370ff775756e982/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ac8404b009bb0dfa7a283f6e94fa54fd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ac8404b009bb0dfa7a283f6e94fa54fd/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93dc1f834b301b459d1b11e5b84fbf16/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93dc1f834b301b459d1b11e5b84fbf16/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/b4012d2a51fcc8bede2d6230be0d0ac5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/b4012d2a51fcc8bede2d6230be0d0ac5/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/db1d7ef8acdced45afe41f070c80cc7f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/db1d7ef8acdced45afe41f070c80cc7f/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ad6259ce3569d086a3b57497cede3661/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ad6259ce3569d086a3b57497cede3661/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/11b1db5a139b6c4e373cfae5b8bdc711/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/11b1db5a139b6c4e373cfae5b8bdc711/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6d8f8144433efcd212c603c9dd10b90c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6d8f8144433efcd212c603c9dd10b90c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/c6d76c9ee6ff14f394646feff196d96c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/c6d76c9ee6ff14f394646feff196d96c/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/2119656ee468637dec8b47bb31b16e9b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/2119656ee468637dec8b47bb31b16e9b/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/1d1e3885c9fd1ca980748f379bf4f5c9/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/1d1e3885c9fd1ca980748f379bf4f5c9/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/443bd87ee684a2cc03b9c13ef00a7d51/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/443bd87ee684a2cc03b9c13ef00a7d51/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93ec22c54347c54b2841e93edbe987a4/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/F364032/.gradle/caches/transforms-2/files-2.1/93ec22c54347c54b2841e93edbe987a4/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/4442277a38e7191a450b6b7a2e38f6ae/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/4442277a38e7191a450b6b7a2e38f6ae/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/255c7097195b959ebbb2103a63e2f7b2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/255c7097195b959ebbb2103a63e2f7b2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ed52e631d0f6c392b557ca89aad3812f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/ed52e631d0f6c392b557ca89aad3812f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/99f590f7bbfc8581338d6f70d8d1a41c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/99f590f7bbfc8581338d6f70d8d1a41c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/0a3d4bb0473a0a7098a31215bffc5a7d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/0a3d4bb0473a0a7098a31215bffc5a7d/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/d25ffaeb3f729daba67c2fe745b9e4de/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/d25ffaeb3f729daba67c2fe745b9e4de/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/c7d6fc8eed05238ad5263002ff2de997/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/c7d6fc8eed05238ad5263002ff2de997/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6fb947e1075f5d86bbf8daa0d42b23b1/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6fb947e1075f5d86bbf8daa0d42b23b1/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/9fc1e30bda4da99baffe38c538bd78e9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/9fc1e30bda4da99baffe38c538bd78e9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6ad62eb2e25a1906be4cd4148fa08c03/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6ad62eb2e25a1906be4cd4148fa08c03/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/da9de17933d68bce7ae0b262a56405fe/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/da9de17933d68bce7ae0b262a56405fe/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/162e3e261dda82932337bcf45b7b8236/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/162e3e261dda82932337bcf45b7b8236/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6cbce081d381ee367acb6cc2087a7921/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/6cbce081d381ee367acb6cc2087a7921/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/0e15ed7ad24393a6efb5fe1bd78a2510/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/F364032/.gradle/caches/transforms-2/files-2.1/0e15ed7ad24393a6efb5fe1bd78a2510/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+		ADDED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/F364032/Projects/BindingofIsaacWiki/app/src/main/AndroidManifest.xml

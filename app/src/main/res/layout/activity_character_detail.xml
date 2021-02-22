@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CharacterDetailActivity">
+
+    <TextView
+        android:id="@+id/character_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="55dp"
+        android:textStyle="bold"
+        tools:text="Isaac" />
+
+    <ImageView
+        android:id="@+id/character_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/character_name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        tools:src="@drawable/isaac" />
+
+    <RelativeLayout
+        android:id="@+id/heart_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/character_icon"
+        android:layout_marginTop="5dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/hearts_recycler_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heart_zone"
+        android:background="#cfbca6">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stat_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="STATS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <!-- DAMAGE SECTION -->
+
+            <ImageView
+                android:id="@+id/damage_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/stat_title"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/damage_icon" />
+
+            <TextView
+                android:id="@+id/damage_title"
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/damage_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@+id/damage_icon"
+                android:text="DAMAGE"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/damage"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/damage_title"
+                android:layout_toEndOf="@+id/damage_title"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+            <!-- TEARS SECTION -->
+
+            <ImageView
+                android:id="@+id/tears_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/damage_icon"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/tears_icon" />
+
+            <TextView
+                android:id="@+id/tears_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tears_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/tears_icon"
+                android:text="TEARS"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tears"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tears_title"
+                android:layout_toEndOf="@+id/tears_title"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+            <!-- SHOT SPEED SECTION -->
+
+            <ImageView
+                android:id="@+id/shot_speed_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tears_icon"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/shot_speed_icon" />
+
+            <TextView
+                android:id="@+id/shot_speed_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shot_speed_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/shot_speed_icon"
+                android:text="SHOT SPEED"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/shot_speed"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/shot_speed_title"
+                android:layout_toEndOf="@+id/shot_speed_title"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+            <!-- RANGE SECTION -->
+
+            <ImageView
+                android:id="@+id/range_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/shot_speed_icon"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/range_icon" />
+
+            <TextView
+                android:id="@+id/range_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/range_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/range_icon"
+                android:text="RANGE"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/range"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/range_title"
+                android:layout_toEndOf="@+id/range_title"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+            <!-- SPEED SECTION -->
+
+            <ImageView
+                android:id="@+id/speed_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/range_icon"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/speed_icon" />
+
+            <TextView
+                android:id="@+id/speed_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/speed_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/speed_icon"
+                android:text="SPEED"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/speed"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/speed_title"
+                android:layout_toEndOf="@+id/speed_title"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+            <!-- LUCK SECTION -->
+
+            <ImageView
+                android:id="@+id/luck_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/speed_icon"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/luck_icon" />
+
+            <TextView
+                android:id="@+id/luck_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/luck_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/luck_icon"
+                android:text="LUCK"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/luck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/luck_title"
+                android:layout_toEndOf="@+id/luck_title"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+            <TextView
+                android:id="@+id/starting_items_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/luck"
+                android:layout_marginTop="50dp"
+                android:text="STARTING ITEMS"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- PICKUPS SECTION -->
+
+            <ImageView
+                android:id="@+id/pickups_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/starting_items_title"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/damage_icon" />
+
+            <TextView
+                android:id="@+id/pickups_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/pickups_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/pickups_icon"
+                android:text="PICKUPS"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/pickups"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/pickups_title"
+                android:layout_toEndOf="@+id/pickups_title"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+            <!-- ITEMS SECTION -->
+
+            <ImageView
+                android:id="@+id/items_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/pickups_icon"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/damage_icon" />
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/items_icon"
+                android:layout_marginEnd="20dp"
+                android:layout_toEndOf="@id/items_icon"
+                android:text="ITEMS"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/item"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/items_icon"
+                android:layout_toEndOf="@+id/items_icon"
+                android:textColor="@color/black"
+                tools:text="52" />
+
+
+            <TextView
+                android:id="@+id/unlock_method"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item"
+                android:layout_marginTop="50dp"
+                android:text="UNLOCK METHOD"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
